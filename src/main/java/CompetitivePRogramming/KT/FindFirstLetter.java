@@ -17,6 +17,7 @@ public class FindFirstLetter {
         String[] arr = str.split(" ");
 
         for(String eachWord : arr) {
+
             System.out.print(eachWord.charAt(0));
         }
     }
