@@ -14,11 +14,12 @@ public class FindFirstLetter {
     }
 
     private static void printFirstLetterOfEachWord(String str) {
+        str = str.toUpperCase();
         String[] arr = str.split(" ");
 
         for(String eachWord : arr) {
 
-            System.out.print(eachWord.charAt(0));
+            System.out.print(eachWord.charAt(eachWord.length()-1));
         }
     }
 }
