@@ -11,7 +11,7 @@ public class CountSubStrings {
         String input = sc.next();
         List<String> allSubStrings = getAllPossibleSubstrings(input);
         System.out.println(allSubStrings);
-
+        System.out.println("vishal".startsWith("v"));
         int count = 0;
         for(String eachSubstr : allSubStrings) {
             if(eachSubstr.length() >= k
@@ -29,6 +29,8 @@ public class CountSubStrings {
 //            characterSet.add(eachSubstr.charAt(i));
 //        }
 //        return characterSet.size();
+
+        //split
 
 
         return eachSubstr.chars().distinct().count();

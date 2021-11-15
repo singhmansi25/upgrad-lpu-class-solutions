@@ -1,4 +1,4 @@
-package KT;
+package Datastructures.KT;
 
 
 public class CousinProblem {
